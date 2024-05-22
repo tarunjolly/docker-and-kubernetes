@@ -1,0 +1,13 @@
+Command to Create Docker Image
+
+docker build -t <docker_user_id>/<repo_name>:<tag>
+
+Command to Run Docker Image
+
+docker run -p <outside_port>:<inside_container_port> <image_id>
+
+
+
+
+WORKDIR | /usr/app
+         any following command will be executed relative to this path in the container 
